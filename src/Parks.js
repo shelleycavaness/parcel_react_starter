@@ -5,7 +5,7 @@ import regeneratorRuntime from "regenerator-runtime";
 
 
 function Parks (){
-  const [items, setItems] = useState('')
+  const [items, setItems] = useState([])
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -46,12 +46,10 @@ function Parks (){
   { console.log(`items`, items)}
 
   <h3>my parks {items.lenght}</h3>
-  <h3>my parks {items[0]._id}</h3>
 
-  {/* { items.lenght != 0 ?  items.map((park) => (
-        <div className="">{park.title}</div> 
+  {/* { items.map(park => (
+        <div >{park.title}</div> 
       )) 
-      : <div> </div>
   } */}
       
 
