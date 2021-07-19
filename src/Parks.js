@@ -47,10 +47,10 @@ function Parks (){
 
   <h3>my parks {items.lenght}</h3>
 
-  {/* { items.map(park => (
+  { items.map(park => (
         <div >{park.title}</div> 
       )) 
-  } */}
+  }
       
 
   </div>
